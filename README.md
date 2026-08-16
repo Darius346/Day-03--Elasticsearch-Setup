@@ -103,6 +103,6 @@ bash
 - systemctl start elasticsearch.service
 - systemctl status elasticsearch.service
 
-🖼️ Reference Images
+# 🖼️ Reference Images
 
-
+![Create_VPC_Ref_1](images/Create_VPC_Network_Ref_1.png)
