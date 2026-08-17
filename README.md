@@ -41,6 +41,7 @@ Set up and configure an Elasticsearch instance inside your Vultr VPC environment
 - Create a new VPC
 - Set IPv4 range: <ip-adress>/24
 - Name it MYDFIR-30-Day-Challenge
+- Reference Image #1
 
 2️⃣ Deploy Elasticsearch VM
 - Navigate to Compute → Instances → Click Deploy New Server 
@@ -51,6 +52,7 @@ Set up and configure an Elasticsearch instance inside your Vultr VPC environment
 - Attach VPC 2.0
 - Name host: DFIR-ELK
 - Deploy
+- Reference Image #2
 
 3️⃣ SSH Into the Server
 bash
@@ -63,6 +65,7 @@ bash
 5️⃣ Download & Install Elasticsearch
 bash
 - wget <ElasticSearch-deb-download-link>
+- Reference Image #3
 - dpkg -i elasticsearch-8.x.x-amd64.deb
 
 6️⃣ Save Auto‑Generated Security Credentials
@@ -103,6 +106,13 @@ bash
 - systemctl start elasticsearch.service
 - systemctl status elasticsearch.service
 
-🖼️ Reference Images
+# 🖼️ Reference Images
 
+Reference #1
+![Create_VPC_Network](<images/Create VPC Network.png>)
 
+Reference #2
+![Deployed_New_Server_Instance](<images/Deployed New Server Instance.png>)
+
+Reference #3
+![Downloaded_ElasticSearch](<images/Downloaded ElasticSearch.png>)
